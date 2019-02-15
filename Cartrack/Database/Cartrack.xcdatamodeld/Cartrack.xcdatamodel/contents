@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18D109" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Country" representedClassName="Country" syncable="YES">
+        <attribute name="flag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="location" maxCount="1" deletionRule="Nullify" destinationEntity="Country" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Country" positionX="-54" positionY="9" width="128" height="75"/>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
+</model>
