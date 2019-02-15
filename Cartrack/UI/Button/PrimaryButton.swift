@@ -33,7 +33,7 @@ class PrimaryButton: UIButton {
     @IBInspectable
     var highlightedStartColor: UIColor = #colorLiteral(red: 0.8431372549, green: 0.8431372549, blue: 0.8431372549, alpha: 1)
     @IBInspectable
-    var highlightedendColor: UIColor = #colorLiteral(red: 0.8431372549, green: 0.8431372549, blue: 0.8431372549, alpha: 1)
+    var highlightedendColor: UIColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
     override init(frame: CGRect) {
         super.init(frame: frame)
         setup()
@@ -43,6 +43,7 @@ class PrimaryButton: UIButton {
         setup()
     }
     func setup() {
+         self.setTitleColor(.black, for: .highlighted)
         if  gradientLayer.superlayer != nil {
             gradientLayer.removeFromSuperlayer()
         }
@@ -83,7 +84,7 @@ class PrimaryButton: UIButton {
             if isHighlighted {
                 setGradient(startGradientColor: highlightedStartColor, endGradientColor: highlightedendColor)
             } else {
-                setGradient(startGradientColor: startColor, endGradientColor: endColor)
+                 setup()
             }
         }
     }
