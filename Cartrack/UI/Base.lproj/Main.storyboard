@@ -43,12 +43,22 @@
                                     <constraint firstAttribute="width" constant="180" id="pnL-Nf-AZP"/>
                                 </constraints>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FKF-aB-uH5">
+                                <rect key="frame" x="0.0" y="417" width="375" height="250"/>
+                                <color key="backgroundColor" red="0.13180360960000001" green="0.1342961426" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="lce-x3-8jo"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="FKF-aB-uH5" firstAttribute="leading" secondItem="UIF-ZY-h2W" secondAttribute="leading" id="5SB-Mn-EEh"/>
                             <constraint firstItem="xQe-3b-Uer" firstAttribute="top" secondItem="UIF-ZY-h2W" secondAttribute="top" constant="170" id="61Q-67-aQF"/>
                             <constraint firstItem="0Cd-VS-8N0" firstAttribute="top" secondItem="Dic-Yg-XXg" secondAttribute="top" id="CDy-Mo-akG"/>
+                            <constraint firstItem="UIF-ZY-h2W" firstAttribute="trailing" secondItem="FKF-aB-uH5" secondAttribute="trailing" id="btl-Ff-VZ5"/>
                             <constraint firstItem="0Cd-VS-8N0" firstAttribute="bottom" secondItem="Dic-Yg-XXg" secondAttribute="bottom" id="e3K-aR-xlp"/>
+                            <constraint firstAttribute="bottom" secondItem="FKF-aB-uH5" secondAttribute="bottom" id="gCX-EL-erp"/>
                             <constraint firstItem="0Cd-VS-8N0" firstAttribute="leading" secondItem="Dic-Yg-XXg" secondAttribute="leading" id="hy8-T3-rHg"/>
                             <constraint firstItem="xQe-3b-Uer" firstAttribute="centerX" secondItem="Dic-Yg-XXg" secondAttribute="centerX" id="wqQ-6K-TSK"/>
                             <constraint firstItem="0Cd-VS-8N0" firstAttribute="trailing" secondItem="Dic-Yg-XXg" secondAttribute="trailing" id="zEs-4o-3wt"/>
@@ -58,6 +68,7 @@
                     <connections>
                         <outlet property="backgroundImageBottom" destination="e3K-aR-xlp" id="dth-Vd-tsE"/>
                         <outlet property="backgroundImageTop" destination="CDy-Mo-akG" id="gfh-xL-MnC"/>
+                        <outlet property="loginContainerView" destination="FKF-aB-uH5" id="lgI-uu-YhK"/>
                         <outlet property="loginIconOriginY" destination="61Q-67-aQF" id="Afa-pW-4Zc"/>
                     </connections>
                 </viewController>

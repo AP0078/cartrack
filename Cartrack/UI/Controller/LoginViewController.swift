@@ -14,6 +14,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var backgroundImageTop: NSLayoutConstraint!
     @IBOutlet weak var backgroundImageBottom: NSLayoutConstraint!
     @IBOutlet weak var loginIconImageView: UIImageView!
+    @IBOutlet weak var loginContainerView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -26,5 +27,9 @@ class LoginViewController: UIViewController {
             self.view.layoutIfNeeded()
         }) { (complete) in
         }
+    }
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        loginContainerView.roundCorners([.topLeft, .topRight], radius: 10)
     }
 }

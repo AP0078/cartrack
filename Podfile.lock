@@ -1,0 +1,20 @@
+PODS:
+  - SnapKit (4.2.0)
+  - UnderLineTextField (2.1.0)
+
+DEPENDENCIES:
+  - SnapKit
+  - UnderLineTextField
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
+    - UnderLineTextField
+
+SPEC CHECKSUMS:
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  UnderLineTextField: b3f5307b56962331e30a965e81b79aae2df1de83
+
+PODFILE CHECKSUM: c3df7bda1961418b3aad635c265bf0353a9620e3
+
+COCOAPODS: 1.6.0
