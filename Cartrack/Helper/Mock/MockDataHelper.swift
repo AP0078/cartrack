@@ -166,7 +166,7 @@ class MockDataHelper: MockProtocol {
         
         return fetchedResults
     }
-    
+
     func update(user: User, location: String) {
         
         let context = self.database.getMainContextInstance()
