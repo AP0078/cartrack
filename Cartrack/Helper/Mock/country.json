@@ -1,0 +1,44 @@
+[
+	
+	{
+		"name": "Australian",
+		"flag": "AUD"
+	},
+	{
+		"name": "Canadian",
+		"flag": "CAD"
+	},
+	{
+		"name": "Switzerland",
+		"flag": "CHF"
+	},
+	{
+		"name": "China",
+		"flag": "CNH"
+	},
+	{
+		"name": "United Kingdom",
+		"flag": "GBP"
+	},
+	{
+		"name": "Hong Kong",
+		"flag": "HKD"
+	},
+	{
+		"name": "Japan",
+		"flag": "JPY"
+	},
+	{
+		"name": "New Zealand",
+		"flag": "NZD"
+	},
+	{
+		"name": "Singapore",
+		"flag": "SGD"
+	},
+	{
+		"name": "United States",
+		"flag": "USD"
+	}
+
+]
